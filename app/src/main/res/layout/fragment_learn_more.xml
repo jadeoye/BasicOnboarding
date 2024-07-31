@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LearnMoreFragment">
+
+    <RadioGroup
+        android:id="@+id/learnMoreRadioGroup"
+        android:layout_width="400dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/ratingHeaderTextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+        <RadioButton
+            android:id="@+id/aboutUsRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us" />
+        <RadioButton
+            android:id="@+id/contactUsRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us" />
+    </RadioGroup>
+
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_app_version"
+        android:title="Show App Version"
+        android:icon="@drawable/version_icon"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_build_number"
+        android:title="Show Build Number"
+        android:icon="@drawable/build_icon"
+        app:showAsAction="never" />
+</menu>
